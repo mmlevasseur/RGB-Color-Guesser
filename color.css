@@ -1,0 +1,74 @@
+.square {
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    transition: background 0.6s;
+    border-radius: 15px;
+}
+
+#options #messageDisplay {
+    color:steelblue;
+    display: inline-block;
+    width: 15%;
+    text-align: right;
+    padding-right: 7%;
+    font-weight: 700;
+}
+
+.container {
+    margin: 1rem auto;
+    max-width: 37rem;
+}
+
+body {
+    background-color: #232323;
+    font-family: "Ubuntu";
+    font-weight: normal;
+    margin:0;
+}
+
+.heading {
+    color: white;
+    background-color: slateblue;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 4rem;
+    margin: 0;
+    height: 14rem;
+    line-height: 4rem;
+    font-size: 2rem;
+}
+
+#options {
+    color: slateblue;
+    background-color: white;
+    text-align: center;
+    height: 1.8rem;
+}
+
+.selected {
+    background-color: slateblue;
+    color: white;
+}
+
+#colorDisplay {
+    font-size: 250%;
+}
+
+button {
+    border: none;
+    background-color:none;
+    height: 100%;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    transition: all 0.3s;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background-color: slateblue;
+}
